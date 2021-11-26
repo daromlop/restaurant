@@ -772,4 +772,14 @@ textarea {
     }
 }
 
-/* Anim */
+@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+    .container-barmenu-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container-barmenu-nav ul li {
+        width: 45%;
+        margin: 0 10px;
+    }
+}
