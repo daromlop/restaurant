@@ -117,12 +117,12 @@ let botonpla = document.getElementById('platosestrella').getElementsByClassName(
 
 Array.prototype.forEach.call(botonpla, function(e) {
 e.addEventListener('click', function(){
-  if(e.innerHTML === "VER MÁS 🖹") {
+  if(e.innerHTML === "VER MÁS") {
     e.parentElement.querySelector('.cartaes').style.transform = "rotateY(180deg)";
-    e.innerHTML = "⬅ VOLVER";
+    e.innerHTML = "VOLVER";
   } else {
     e.parentElement.querySelector('.cartaes').style.transform = "rotateY(0deg)";
-    e.innerHTML = "VER MÁS 🖹";
+    e.innerHTML = "VER MÁS";
   }
 });
 });
