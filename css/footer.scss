@@ -47,8 +47,8 @@ footer {
             }
         }
 
-        .copyright {
-            margin: 20px auto 0px;
+        .lcc {
+            margin: 10px auto 10px;
             width: 80%;
             font-size: 1em;
             font-weight: 600;
@@ -59,9 +59,19 @@ footer {
                 text-align: center;
             }
 
+            @media (min-width: 1060px) {
+                display: flex;
+            }
+
 
             p {
-                margin-bottom: 2px;
+                margin-bottom: 10px;
+
+                @media (min-width: 1060px) {
+                    margin-right: 10px;
+                    margin-top: 2.5px;
+                    margin-bottom: 0px;
+                }
 
                 a {
                     color: #fff;
